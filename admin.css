@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.tablink {
+  color: white;
+  background-color: #555;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+.tablink:hover {
+  background-color: #777;
+}
+.tabcontent {
+  display: none;
+  padding: 35px 20px;
+  height: 100%;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+table {
+  table-layout:fixed;
+  border: none;
+  border-radius: 4px;
+  border-collapse: collapse;
+  height: 100%;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  word-wrap: break-word;
+  text-align: center;
+  vertical-align: middle;
+}
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+.block:hover {
+  background-color: #45a049;
+  color: white;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#div {
+  width: 98%;
+  margin: auto;
+  margin-top: 10px;
+}
