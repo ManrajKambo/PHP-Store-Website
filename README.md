@@ -33,7 +33,7 @@ Follow these instructions to get the project up and running on an Ubuntu 20.04 s
 
 4. Upload the contents of the 'Store' folder to the web server's root directory:
     ```sh
-    sudo cp -r Store/* /var/www/html/
+    sudo rm /var/www/html/index.html && sudo cp -r Store/* /var/www/html/
     ```
 
 5. Set the correct permissions for the web server to access the files:
